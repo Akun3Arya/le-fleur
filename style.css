@@ -1,0 +1,81 @@
+body {
+  background-color: #1b2838;
+}
+
+.container-nav {
+  background-color: #171a21;
+  color: white;
+}
+
+.container-nav nav ul li a {
+  color: white;
+}
+
+.container-sidebar {
+    margin-top: 5rem;
+}
+
+.container-sidebar ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container-sidebar ul li a {
+    text-decoration: none;
+    color: #66c0f4;
+}
+
+.container-sidebar ul li h5{
+    color: white;
+}
+
+.container-main {
+    margin-top: 6rem;
+}
+
+.container-main nav {
+    background-color: #0277fc;
+    color: white;
+}
+
+
+:hover#store {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+
+:hover#library {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+:hover#community {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+:hover#user {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffffff;
+  }
+}
